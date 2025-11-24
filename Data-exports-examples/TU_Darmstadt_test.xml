@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets
+    xmlns:mets="http://www.loc.gov/METS/"
+    xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dv="http://dfg-viewer.de/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods-3-8.xsd
+        http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd">
+
+  <!-- Minimal METS header -->
+  <mets:metsHdr>
+    <mets:agent ROLE="CREATOR">
+      <mets:name>DuraArK</mets:name>
+    </mets:agent>
+  </mets:metsHdr>
+
+  <!-- Descriptive metadata, taken from partner's MODS -->
+  <mets:dmdSec ID="dmd_170e38e26df0ff61cbcbe9e3b1ec0323">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods version="3.8">
+          <mods:accessCondition type="license">
+            http://creativecommons.org/licenses/by-nc/4.0/
+          </mods:accessCondition>
+
+          <mods:identifier type="uri">
+            https://ingest.nfdi4ing.de/dataset/001743be-724b-4bbd-829f-d0cc186f045e
+          </mods:identifier>
+
+          <mods:name type="personal">
+            <mods:displayForm>DuraArK</mods:displayForm>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">cre</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+
+          <mods:originInfo>
+            <mods:publisher>https://ingest.nfdi4ing.de</mods:publisher>
+            <mods:dateIssued encoding="iso8601">2023-04-13</mods:dateIssued>
+          </mods:originInfo>
+
+          <mods:recordInfo>
+            <mods:note>
+              This is a BIM model of an Educational/Single fam house created
+              in the context of the DuraArK-Project. The project developed
+              methods and tools for the Long-Term Preservation (LTP) of
+              architectural knowledge, including approaches to:
+              Enrich Building Information Models with “as built” information
+              from scans, semantically enrich building models with additional
+              data sets, preserve 3D models for future reuse.
+            </mods:note>
+          </mods:recordInfo>
+
+          <mods:titleInfo>
+            <mods:title>Academic Autodesk</mods:title>
+          </mods:titleInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+
+  <!-- Rights (from partner's amdSec/rightsMD) -->
+  <mets:amdSec ID="AMD">
+    <mets:rightsMD ID="RIGHTS">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS" MIMETYPE="text/xml">
+        <mets:xmlData>
+          <dv:rights>
+            <dv:owner>NFDI4ING ing.est</dv:owner>
+            <dv:ownerSiteURL>https://ingest.nfdi4ing.de</dv:ownerSiteURL>
+            <dv:ownerContact>ingest@nfdi4ing.de</dv:ownerContact>
+          </dv:rights>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+  </mets:amdSec>
+
+  <!-- FILE SECTION: flattened, no nested <file> -->
+  <mets:fileSec>
+
+    <!-- main data files -->
+    <mets:fileGrp USE="DEFAULT">
+      <mets:file
+          ID="f_404865df486bcc41b1f260c65d54c14b"
+          MIMETYPE="application/x-step"
+          SIZE="38068042">
+        <mets:FLocat
+            LOCTYPE="URL"
+            xlink:type="simple"
+            xlink:href="https://ingest.nfdi4ing.de/data/g5k9/Academic_Autodesk-AdvancedSampleProject_Arch.ifc"/>
+      </mets:file>
+
+      <mets:file
+          ID="f_91b844b1d6171f92f7431c7d27d4b5cd"
+          MIMETYPE="application/x-step"
+          SIZE="5386575">
+        <mets:FLocat
+            LOCTYPE="URL"
+            xlink:type="simple"
+            xlink:href="https://ingest.nfdi4ing.de/data/g5k9/Academic_Autodesk-BasicSampleProject_Arch.ifc"/>
+      </mets:file>
+    </mets:fileGrp>
+
+    <!-- thumbnails & previews -->
+    <mets:fileGrp USE="THUMBS">
+      <mets:file ID="f_c2adaf794687e416cacc716bc4db1a01" MIMETYPE="image/png">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple"
+          xlink:href="https://ingest.nfdi4ing.de/data/g5k9/_workbench/Academic_Autodesk-AdvancedSampleProject_Arch-ifc-glb-512-ortho-270-0.png"/>
+      </mets:file>
+
+      <mets:file ID="f_4b03d7d39aae32cf75dc58f0b941c279" MIMETYPE="image/png">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple"
+          xlink:href="https://ingest.nfdi4ing.de/data/g5k9/_workbench/Academic_Autodesk-AdvancedSampleProject_Arch-ifc-glb-512-persp-315-315.png"/>
+      </mets:file>
+
+      <mets:file ID="f_54ca1a44ff83e0438f4d3b3d699f46c1" MIMETYPE="image/png">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple"
+          xlink:href="https://ingest.nfdi4ing.de/data/g5k9/_workbench/Academic_Autodesk-AdvancedSampleProject_Arch-ifc-glb-512-ortho-0-0.png"/>
+      </mets:file>
+
+      <mets:file ID="f_56dd009cf59dafa9973e3a7f31971fd3" MIMETYPE="image/png">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple"
+          xlink:href="https://ingest.nfdi4ing.de/data/g5k9/_workbench/Academic_Autodesk-AdvancedSampleProject_Arch-ifc-glb-512-ortho-0-180.png"/>
+      </mets:file>
+
+      <mets:file ID="f_aa87d327714c1d15c6392e5bc03bd2bc" MIMETYPE="image/png">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple"
+          xlink:href="https://ingest.nfdi4ing.de/data/g5k9/_workbench/Academic_Autodesk-AdvancedSampleProject_Arch-ifc-glb-512-ortho-0-90.png"/>
+      </mets:file>
+
+      <mets:file ID="f_0a49fbb5a1f406534083cc6a8e08e71e" MIMETYPE="model/gltf-binary">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple"
+          xlink:href="https://ingest.nfdi4ing.de/data/g5k9/_workbench/Academic_Autodesk-AdvancedSampleProject_Arch-ifc-glb-rapidcompact-10MB.glb"/>
+      </mets:file>
+
+      <mets:file ID="f_54356e870eee84da1b093432d201ef3a" MIMETYPE="image/png">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple"
+          xlink:href="https://ingest.nfdi4ing.de/data/g5k9/_workbench/Academic_Autodesk-AdvancedSampleProject_Arch-ifc-glb-512-persp-315-135.png"/>
+      </mets:file>
+
+      <mets:file ID="f_1eb8b4ed7b2b4aacb08fa75563a28d91" MIMETYPE="image/png">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple"
+          xlink:href="https://ingest.nfdi4ing.de/data/g5k9/_workbench/Academic_Autodesk-AdvancedSampleProject_Arch-ifc-glb-512-ortho-0-270.png"/>
+      </mets:file>
+
+      <mets:file ID="f_09d15308443f6655592e0d74a1638025" MIMETYPE="image/png">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple"
+          xlink:href="https://ingest.nfdi4ing.de/data/g5k9/_workbench/Academic_Autodesk-AdvancedSampleProject_Arch-ifc-glb-512-persp-315-225.png"/>
+      </mets:file>
+
+      <mets:file ID="f_6226cf05d2102735601ab0bcc4668f3e" MIMETYPE="image/png">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple"
+          xlink:href="https://ingest.nfdi4ing.de/data/g5k9/_workbench/Academic_Autodesk-AdvancedSampleProject_Arch-ifc-glb-512-persp-315-45.png"/>
+      </mets:file>
+    </mets:fileGrp>
+
+  </mets:fileSec>
+
+  <!-- Logical struct map: now correctly points to dmdSec -->
+  <mets:structMap TYPE="LOGICAL">
+    <mets:div
+        ID="LOG_001743be"
+        TYPE="object"
+        LABEL="Academic Autodesk"
+        DMDID="dmd_170e38e26df0ff61cbcbe9e3b1ec0323"/>
+  </mets:structMap>
+
+</mets:mets>
