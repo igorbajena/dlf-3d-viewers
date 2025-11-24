@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets
+    xmlns:mets="http://www.loc.gov/METS/"
+    xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:dv="http://dfg-viewer.de/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:premis="info:lc/xmlns/premis-v3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd
+        http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd">
+
+  <mets:dmdSec ID="DMDLOG_0310">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods>
+
+          <mods:titleInfo xml:lang="en">
+            <mods:title>Volpa Synagogue (1929–1941) reconstructed by Katarzyna Prokopiuk</mods:title>
+          </mods:titleInfo>
+          <mods:titleInfo type="alternative" xml:lang="en">
+            <mods:title>SyVo_1929-1941</mods:title>
+          </mods:titleInfo>
+
+          <mods:name type="personal">
+            <mods:namePart type="family">Prokopiuk</mods:namePart>
+            <mods:namePart type="given">Katarzyna</mods:namePart>
+            <mods:affiliation>Warsaw University of Technology</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">cre</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+
+          <mods:name type="personal">
+            <mods:namePart>Piotr Kuroczynski</mods:namePart>
+            <mods:affiliation>Mainz University of Applied Sciences – Institute of Architecture</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="text">supervisor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+
+          <mods:name type="corporate">
+            <mods:namePart>Warsaw University of Technology</mods:namePart>
+            <mods:role>
+              <mods:roleTerm type="text">creating institution</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="corporate">
+            <mods:namePart>Mainz University of Applied Sciences, Institute of Architecture</mods:namePart>
+            <mods:role>
+              <mods:roleTerm type="text">creating institution</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+
+          <mods:name type="corporate">
+            <mods:namePart>Erasmus+ CoVHer project</mods:namePart>
+            <mods:role>
+              <mods:roleTerm type="text">funder</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+
+          <mods:abstract xml:lang="en">
+            The model depicts the Volpa Synagogue, a wooden baroque synagogue formerly located in present-day Belarus,
+            in its interwar phase shortly before destruction by the German occupiers. The reconstruction is based on
+            archival inventory drawings, historic photographs and the monograph by Maria and Kazimierz Piechotka on
+            wooden synagogues of the former Polish–Lithuanian Commonwealth. It was created as a student project at the
+            Warsaw University of Technology within the PL 3DREKO-22 seminar coordinated by the Institute of
+            Architecture of Mainz University of Applied Sciences.
+          </mods:abstract>
+          <mods:note type="description" xml:lang="en">
+            3D reconstruction of the wooden Volpa Synagogue as it stood between 1929 and 1941, based mainly on archival
+            drawings and photographs and created within the PL 3DREKO-22 teaching project.
+          </mods:note>
+
+          <mods:note type="representationStatus">
+            Interpretative historical reconstruction of a destroyed object (past phase, 1929–1941).
+          </mods:note>
+          <mods:note type="phaseName">
+            Interwar phase before destruction (1929–1941).
+          </mods:note>
+          <mods:note type="representationalMode">
+            Hybrid: evidence-based geometry with hypothetical or symbolic materials.
+          </mods:note>
+          <mods:note type="creationMethod">
+            Manual polygonal modelling of architecture and interior from historic drawings and photographs.
+          </mods:note>
+          <mods:note type="methodology">
+            Manual modelling of architecture and decorative elements from inventory drawings and historic photographs;
+            UV unwrapping and texturing; export to GLB for web visualisation.
+          </mods:note>
+          <mods:note type="aiInvolvement">
+            No AI or machine learning methods were used in the modelling process.
+          </mods:note>
+          <mods:note type="interventionType">
+            Virtual reconstruction (restitution of lost architecture) in the sense of the Seville Principles.
+          </mods:note>
+
+          <mods:subject>
+            <mods:topic>Volpa</mods:topic>
+          </mods:subject>
+          <mods:subject>
+            <mods:topic>Wołpa</mods:topic>
+          </mods:subject>
+          <mods:subject>
+            <mods:topic>wooden synagogue</mods:topic>
+          </mods:subject>
+          <mods:subject>
+            <mods:topic>Belarus</mods:topic>
+          </mods:subject>
+          <mods:subject>
+            <mods:topic>Jewish heritage</mods:topic>
+          </mods:subject>
+          <mods:subject>
+            <mods:topic>interwar period</mods:topic>
+          </mods:subject>
+          <mods:subject>
+            <mods:topic>virtual reconstruction</mods:topic>
+          </mods:subject>
+          <mods:subject>
+            <mods:topic>3D model</mods:topic>
+          </mods:subject>
+
+          <mods:classification authority="local">Architecture; Cultural heritage</mods:classification>
+          <mods:classification authority="local">Single Built Work</mods:classification>
+          <mods:note type="modelType">mesh</mods:note>
+
+          <mods:originInfo eventType="creation">
+            <mods:dateCreated encoding="iso8601" point="start">2022-03-17</mods:dateCreated>
+            <mods:dateCreated encoding="iso8601" point="end">2022-05-19</mods:dateCreated>
+          </mods:originInfo>
+
+          <mods:originInfo eventType="publication">
+            <mods:publisher>CoVHer Repository (WissKI / Drupal)</mods:publisher>
+            <mods:dateIssued encoding="iso8601">2025-05-26</mods:dateIssued>
+          </mods:originInfo>
+
+          <mods:note type="software">
+            Rhino 6/7; additional processing/export in Blender.
+          </mods:note>
+
+          <mods:accessCondition type="license">
+            Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)
+          </mods:accessCondition>
+          <mods:accessCondition type="use and reproduction">
+            © 2025 Katarzyna Prokopiuk / PL 3DREKO-22 / CoVHer Repository.
+            Licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).
+            Non-commercial use only; derivatives must be shared under the same license; attribution required.
+          </mods:accessCondition>
+
+          <mods:recordInfo>
+            <mods:recordIdentifier source="CoVHer Repository">310</mods:recordIdentifier>
+            <mods:recordCreationDate encoding="iso8601">2025-05-26</mods:recordCreationDate>
+            <mods:recordContentSource>CoVHer Repository</mods:recordContentSource>
+            <mods:recordInfoNote>Record curated by Igor Bajena.</mods:recordInfoNote>
+          </mods:recordInfo>
+
+          <mods:identifier type="uri">https://repository.covher.eu/wisski/navigate/310/view</mods:identifier>
+
+          <mods:note type="technical">
+            Primary format: .glb (model/gltf-binary), file size approx. 40605260 bytes,
+            108315 vertices and 91386 faces. Bounding box extents:
+            X=2776.00, Y=1875.37, Z=2435.52 (model units).
+          </mods:note>
+
+          <mods:relatedItem type="original">
+            <mods:titleInfo xml:lang="en">
+              <mods:title>Volpa Synagogue</mods:title>
+            </mods:titleInfo>
+            <mods:titleInfo type="alternative" xml:lang="pl">
+              <mods:title>Synagoga w Wołpie</mods:title>
+            </mods:titleInfo>
+
+            <mods:originInfo>
+              <mods:dateCreated>First half of the 18th century.</mods:dateCreated>
+              <mods:dateOther type="destruction">
+                Destroyed by German forces in June 1941 or December 1942.
+              </mods:dateOther>
+            </mods:originInfo>
+
+            <mods:location>
+              <mods:physicalLocation>Volpa, Hrodna Region, Belarus.</mods:physicalLocation>
+              <mods:url displayLabel="wikidata">https://www.wikidata.org/wiki/Q3508102</mods:url>
+              <mods:url displayLabel="geonames">https://www.geonames.org/620023</mods:url>
+            </mods:location>
+
+            <mods:classification authority="local">Single Built Work</mods:classification>
+            <mods:subject>
+              <mods:topic>Synagogue</mods:topic>
+            </mods:subject>
+            <mods:subject>
+              <mods:topic>Baroque wooden synagogue architecture</mods:topic>
+            </mods:subject>
+
+            <mods:physicalDescription>
+              <mods:form>Timber structure with richly polychromed interior.</mods:form>
+            </mods:physicalDescription>
+
+            <mods:note type="condition">
+              Represented condition in 3D model: intact, shortly before destruction (interwar phase).
+            </mods:note>
+
+            <mods:note type="description" xml:lang="en">
+              The Volpa Synagogue was a wooden synagogue in present-day Belarus, probably erected in the
+              first half of the 18th century. It underwent several renovations to the roof and aron
+              ha-kodesh in 1903–1936 and was listed as a cultural monument in 1929. The hall has a strictly
+              symmetrical layout with two-storey corner annexes and an impressive octagonal vault that
+              corrects perspective and makes the space appear higher than it is. The interior was covered
+              with rich polychrome decoration and the synagogue is regarded as one of the finest examples of
+              baroque wooden synagogue architecture.
+            </mods:note>
+
+            <mods:note type="currentLocation">
+              A full-scale reconstruction based on inventory drawings was built in Biłgoraj (Poland) in 2015.
+            </mods:note>
+          </mods:relatedItem>
+
+          <mods:relatedItem type="references">
+            <mods:titleInfo>
+              <mods:title>Key sources for the reconstruction</mods:title>
+            </mods:titleInfo>
+            <mods:note>
+              Maria and Kazimierz Piechotka, "Bramy Nieba. Bóżnice drewniane na ziemiach dawnej Rzeczypospolitej";
+              archival inventory drawings and historic photographs of the Volpa Synagogue.
+            </mods:note>
+          </mods:relatedItem>
+
+          <mods:relatedItem type="otherFormat">
+            <mods:titleInfo>
+              <mods:title>Paradata and documentation files</mods:title>
+            </mods:titleInfo>
+            <mods:note>
+              Internal CoVHer paradata files such as Volpa_Presentation_PL.pdf, Sy_Wolpa_dokumentacja.pdf and
+              Volpa_IDOVR_documentation describing modelling decisions and interpretation.
+            </mods:note>
+          </mods:relatedItem>
+
+          <mods:relatedItem type="otherVersion">
+            <mods:titleInfo>
+              <mods:title>Related reconstruction models and derivatives</mods:title>
+            </mods:titleInfo>
+            <mods:note>
+              Related reconstruction models include 1.1_SyVo_1929-1941 and 2.1_SyVo_1929-1941, as well as derivative
+              models for 3D printing and AR derived from the primary reconstruction.
+            </mods:note>
+          </mods:relatedItem>
+
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+
+  <mets:amdSec ID="AMD">
+
+    <mets:techMD ID="TECHMD_0310">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="PREMIS" MIMETYPE="text/xml">
+        <mets:xmlData>
+          <premis:object>
+            <premis:objectIdentifier>
+              <premis:objectIdentifierType>local</premis:objectIdentifierType>
+              <premis:objectIdentifierValue>FILE_0310_MODEL</premis:objectIdentifierValue>
+            </premis:objectIdentifier>
+            <premis:objectCharacteristics>
+              <premis:compositionLevel>0</premis:compositionLevel>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>SHA-256</premis:messageDigestAlgorithm>
+                <premis:messageDigest>38bb2d3ddab86301fc83c6de99fc11359183c8c0ace6130f80c3e3ea99f50cb8</premis:messageDigest>
+              </premis:fixity>
+              <premis:size>40605260</premis:size>
+              <premis:format>
+                <premis:formatDesignation>
+                  <premis:formatName>GLB (GL Transmission Format, binary)</premis:formatName>
+                </premis:formatDesignation>
+              </premis:format>
+              <premis:objectCharacteristicsExtension>
+                <premis:extension>
+                  <premis:extensionType>3D-mesh-metrics</premis:extensionType>
+                  <premis:extensionValue>
+                    vertices=108315; faces=91386;
+                    extentsX=2776.004395; extentsY=1875.372803; extentsZ=2435.516968;
+                    units=unknown (model units).
+                  </premis:extensionValue>
+                </premis:extension>
+              </premis:objectCharacteristicsExtension>
+            </premis:objectCharacteristics>
+            <premis:creatingApplication>
+              <premis:creatingApplicationName>Rhino</premis:creatingApplicationName>
+              <premis:creatingApplicationVersion>6/7</premis:creatingApplicationVersion>
+            </premis:creatingApplication>
+            <premis:creatingApplication>
+              <premis:creatingApplicationName>Blender</premis:creatingApplicationName>
+            </premis:creatingApplication>
+          </premis:object>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+
+    <mets:rightsMD ID="RIGHTS">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS" MIMETYPE="text/xml">
+        <mets:xmlData>
+          <dv:rights>
+            <dv:owner>CoVHer Repository</dv:owner>
+            <dv:ownerLogo>https://repository.covher.eu/sites/default/files/Group-2-1_0_0.png</dv:ownerLogo>
+            <dv:ownerSiteURL>https://repository.covher.eu</dv:ownerSiteURL>
+            <dv:ownerContact>https://repository.covher.eu/imprint</dv:ownerContact>
+          </dv:rights>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+
+    <mets:digiprovMD ID="DIGIPROV">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVLINKS" MIMETYPE="text/xml">
+        <mets:xmlData>
+          <dv:links>
+            <dv:reference>https://repository.covher.eu/api/digital_reconstruction/record/310</dv:reference>
+            <dv:presentation>https://repository.covher.eu/wisski/navigate/310/view</dv:presentation>
+          </dv:links>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+
+  </mets:amdSec>
+
+  <mets:fileSec>
+    <mets:fileGrp USE="DEFAULT">
+      <mets:file ID="FILE_0310_MODEL"
+                 MIMETYPE="model/gltf-binary"
+                 CHECKSUM="38bb2d3ddab86301fc83c6de99fc11359183c8c0ace6130f80c3e3ea99f50cb8"
+                 CHECKSUMTYPE="SHA-256"
+                 SIZE="40605260">
+        <mets:FLocat LOCTYPE="URL"
+                     xlink:href="https://repository.covher.eu/sites/default/files/2025-05/Sy_Wolpa_Model3D-1-.glb"/>
+      </mets:file>
+    </mets:fileGrp>
+
+    <mets:fileGrp USE="THUMBS">
+      <mets:file ID="FILE_0310_THUMB_MAIN" MIMETYPE="image/png">
+        <mets:FLocat LOCTYPE="URL"
+                     xlink:href="https://repository.covher.eu/sites/default/files/2025-05/views/Sy_Wolpa_Model3D-1-_side45.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0310_THUMB_0" MIMETYPE="image/png">
+        <mets:FLocat LOCTYPE="URL"
+                     xlink:href="https://repository.covher.eu/sites/default/files/2025-05/views/Sy_Wolpa_Model3D-1-_side0.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0310_THUMB_90" MIMETYPE="image/png">
+        <mets:FLocat LOCTYPE="URL"
+                     xlink:href="https://repository.covher.eu/sites/default/files/2025-05/views/Sy_Wolpa_Model3D-1-_side90.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0310_THUMB_180" MIMETYPE="image/png">
+        <mets:FLocat LOCTYPE="URL"
+                     xlink:href="https://repository.covher.eu/sites/default/files/2025-05/views/Sy_Wolpa_Model3D-1-_side180.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0310_THUMB_TOP" MIMETYPE="image/png">
+        <mets:FLocat LOCTYPE="URL"
+                     xlink:href="https://repository.covher.eu/sites/default/files/2025-05/views/Sy_Wolpa_Model3D-1-_top.png"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+
+  <mets:structMap TYPE="LOGICAL">
+    <mets:div ID="LOG_0310"
+              TYPE="object"
+              LABEL="Volpa Synagogue (1929–1941) reconstructed by Katarzyna Prokopiuk"
+              DMDID="DMDLOG_0310"/>
+  </mets:structMap>
+
+  <mets:structMap TYPE="PHYSICAL">
+    <mets:div ID="PHYS_ROOT" TYPE="physSequence">
+      <mets:div ID="PHYS_0310" TYPE="object" ORDER="1" ORDERLABEL="1">
+        <mets:fptr FILEID="FILE_0310_MODEL"/>
+        <mets:fptr FILEID="FILE_0310_THUMB_MAIN"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+
+  <mets:structLink>
+    <mets:smLink xlink:from="LOG_0310" xlink:to="PHYS_0310"/>
+  </mets:structLink>
+
+</mets:mets>
